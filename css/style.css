@@ -3,6 +3,16 @@ header {
   width: 158rem;
   background: url(../img/header_background.png) no-repeat center center;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .header-money img {
   position: absolute;
@@ -27,7 +37,6 @@ header {
   padding-top: 5%;
   font-size: 2rem;
   color: white;
-  /*float: right;*/
   text-align: right;
   line-height: 4rem;
 }
@@ -119,16 +128,20 @@ header {
   -webkit-box-shadow: 0 0.3rem #999900;
           box-shadow: 0 0.3rem #999900;
 }
-.improvements {
-  margin-top: 7rem;
+main {
+  width: 158rem;
 }
-.improvements p {
+main .improvements {
+  margin-top: 7rem;
+  margin: 100px auto;
+}
+main .improvements p {
   margin: 0 auto;
   width: 9rem;
   text-align: center;
   font-size: 1rem;
 }
-.improvements-yellow {
+main .improvements-yellow {
   width: 8rem;
   height: 8rem;
   display: -webkit-box;
@@ -142,7 +155,7 @@ header {
   padding: 2rem;
   margin: 0 auto;
 }
-.improvements-yellow img {
+main .improvements-yellow img {
   -ms-flex-item-align: center;
       align-self: center;
 }

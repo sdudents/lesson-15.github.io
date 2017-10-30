@@ -1,9 +1,15 @@
+html {
+
+}
 header{
 	position: relative;
 	width: 158rem;
 	background: url(../img/header_background.png) no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 .header{
 	&-money img{
@@ -13,11 +19,9 @@ header{
 		left: 50%;
 	}
 	&-logo {
-		
 		padding-top: 5%;
 		color: white;
 		span {
-
 			font-size: 1.8rem;
 		}
 		::before{
@@ -31,11 +35,9 @@ header{
 		padding-top: 5%;
 		font-size: 2rem;
 		color: white;
-		/*float: right;*/
 		text-align: right;
 		line-height: 4rem;
 		span{
-
 			font-size: 1.8rem;
 			display: inline-block;
 			height: 4rem;
@@ -64,7 +66,6 @@ header{
 		padding: 1rem 4rem 3rem 4rem;
 		border-radius: .7rem;
 		margin-bottom: 5rem;
-
 		h2 {
 			text-align: center;
 			font-size: 2rem;
@@ -125,25 +126,32 @@ header{
 		}
 	}
 }
-.improvements {
-	margin-top: 7rem;
-	p{
-	margin: 0 auto;
-	width: 9rem;
-	text-align: center;
-	font-size: 1rem;
-}
-}
-.improvements-yellow {
-	width: 8rem;
-	height: 8rem;
-	display:flex;
-	border-radius: 50%;
-	background-color: yellow;
-	justify-content: center;
-	padding: 2rem;
-	margin:0 auto;
-	img {
-		align-self:center;
+main {
+	width: 158rem;
+
+	.improvements {
+		margin-top: 7rem;
+		margin: 100px auto;
+		p{
+		margin: 0 auto;
+		width: 9rem;
+		text-align: center;
+		font-size: 1rem;
+		
+	}
+	}
+	.improvements-yellow {
+		width: 8rem;
+		height: 8rem;
+		display:flex;
+		border-radius: 50%;
+		background-color: yellow;
+		justify-content: center;
+		padding: 2rem;
+		margin:0 auto;
+		img {
+			align-self:center;
+		}
 	}
 }
+
