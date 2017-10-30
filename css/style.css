@@ -1,0 +1,148 @@
+header {
+  position: relative;
+  width: 158rem;
+  background: url(../img/header_background.png) no-repeat center center;
+  background-size: cover;
+}
+.header-money img {
+  position: absolute;
+  margin: -75px 0 0 -130px;
+  top: 100%;
+  left: 50%;
+}
+.header-logo {
+  padding-top: 5%;
+  color: white;
+}
+.header-logo span {
+  font-size: 1.8rem;
+}
+.header-logo ::before {
+  content: url(../img/Logo.png);
+  height: 50px;
+  width: 100px;
+  float: left;
+}
+.header-phone {
+  padding-top: 5%;
+  font-size: 2rem;
+  color: white;
+  /*float: right;*/
+  text-align: right;
+  line-height: 4rem;
+}
+.header-phone span {
+  font-size: 1.8rem;
+  display: inline-block;
+  height: 4rem;
+  width: 20rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  text-align: center;
+  margin-right: 3rem;
+}
+.header-title {
+  color: #ffff33;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+}
+.header-reasons {
+  margin-top: 10rem;
+  color: white;
+  list-style-image: url(../img/rampaga.png);
+  font-size: 2rem;
+}
+.header-form {
+  background-color: #fff;
+  padding: 1rem 4rem 3rem 4rem;
+  border-radius: .7rem;
+  margin-bottom: 5rem;
+}
+.header-form h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0 2rem  0;
+}
+.header-form input[type="text"] {
+  height: 99%;
+  width: 60%;
+  margin-left: 7rem;
+  line-height: 6rem;
+  border: none;
+}
+.header-form-name-div {
+  border: 1px solid black;
+  height: 6rem;
+  position: relative;
+  margin: 1rem 0 1rem 0;
+  border-radius: .7rem;
+}
+.header-form-name-div::before {
+  position: absolute;
+  left: 0;
+  content: url(../img/login.png);
+  text-align: center;
+  padding-top: 2rem;
+  background-color: #000;
+  display: inline-block;
+  height: 5.9rem;
+  width: 5.9rem;
+  border-radius: .7rem;
+}
+.header-form-phone-div {
+  border: 1px solid black;
+  height: 6rem;
+  position: relative;
+  margin: 1rem 0 1rem 0;
+  border-radius: .7rem;
+}
+.header-form-phone-div::before {
+  position: absolute;
+  left: 0;
+  content: url(../img/phone.png);
+  text-align: center;
+  padding-top: 2rem;
+  background-color: #000;
+  display: inline-block;
+  height: 5.9rem;
+  width: 5.9rem;
+  border-radius: .7rem;
+}
+.header-form-btn {
+  height: 5rem;
+  width: 23.5rem;
+  background-color: #ffff33;
+  border-radius: .7rem;
+  border: none;
+  -webkit-box-shadow: 0 0.3rem #999900;
+          box-shadow: 0 0.3rem #999900;
+}
+.improvements {
+  margin-top: 7rem;
+}
+.improvements p {
+  margin: 0 auto;
+  width: 9rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.improvements-yellow {
+  width: 8rem;
+  height: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  background-color: yellow;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.improvements-yellow img {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
